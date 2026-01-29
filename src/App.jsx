@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Editor from './components/Editor';
+import SplitPane from './components/SplitPane';
+import './App.css';
 
 const INITIAL_CODE = `import React from 'react';
 
@@ -17,11 +19,13 @@ function App() {
   const [code, setCode] = useState(INITIAL_CODE);
 
   return (
-    <div style={{ height: '100vh', width: '100vw' }}>
-      <h1>React Emulator</h1>
-      <div style={{ height: 'calc(100vh - 60px)' }}>
+    <div className="app-container">
+      <SplitPane>
         <Editor value={code} onChange={setCode} />
-      </div>
+        <div className="preview-placeholder">
+          <span>Preview</span>
+        </div>
+      </SplitPane>
     </div>
   );
 }
