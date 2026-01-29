@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Editor from './components/Editor';
 
 const INITIAL_CODE = `import React from 'react';
 
@@ -19,7 +20,7 @@ function App() {
     <div style={{ height: '100vh', width: '100vw' }}>
       <h1>React Emulator</h1>
       <div style={{ height: 'calc(100vh - 60px)' }}>
-        {/* Editor will be added here */}
+        <Editor value={code} onChange={setCode} />
       </div>
     </div>
   );
