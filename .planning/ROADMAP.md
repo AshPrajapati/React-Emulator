@@ -29,10 +29,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. User sees split-pane layout with editor left, preview placeholder right
   3. User can resize the split pane by dragging divider
   4. Code typed in editor flows to state (no transformation yet)
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 01-01: TBD during planning
+- [ ] 01-01-PLAN.md — Initialize Vite project and integrate Monaco editor
+- [ ] 01-02-PLAN.md — Implement split-pane layout and verify editor shell
 
 ### Phase 2: Transformation Pipeline
 **Goal**: JSX code transforms to executable JavaScript
@@ -97,7 +98,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Editor Shell + Layout | 0/TBD | Not started | - |
+| 1. Editor Shell + Layout | 0/2 | Ready to execute | - |
 | 2. Transformation Pipeline | 0/TBD | Not started | - |
 | 3. Preview Execution | 0/TBD | Not started | - |
 | 4. Error Handling | 0/TBD | Not started | - |
