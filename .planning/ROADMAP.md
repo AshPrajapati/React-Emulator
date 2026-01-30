@@ -44,10 +44,10 @@ Plans:
   2. Transformation happens after 300ms debounce (not every keystroke)
   3. React/hooks are auto-injected (user doesn't need manual imports)
   4. Transform errors are caught and don't crash the app
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 02-01: TBD during planning
+- [ ] 02-01-PLAN.md — Babel integration and debounced transformation
 
 ### Phase 3: Preview Execution
 **Goal**: Transformed code executes in isolated preview with React support
@@ -99,7 +99,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Editor Shell + Layout | 2/2 | Complete ✓ | 2026-01-29 |
-| 2. Transformation Pipeline | 0/TBD | Not started | - |
+| 2. Transformation Pipeline | 0/1 | Not started | - |
 | 3. Preview Execution | 0/TBD | Not started | - |
 | 4. Error Handling | 0/TBD | Not started | - |
 | 5. Polish & Persistence | 0/TBD | Not started | - |
