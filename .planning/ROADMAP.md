@@ -13,7 +13,7 @@ Build a browser-based React code playground with zero-friction editing and insta
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Editor Shell + Layout** - Monaco editor with split-pane UI ✓
-- [ ] **Phase 2: Transformation Pipeline** - Babel JSX-to-JS transformation
+- [x] **Phase 2: Transformation Pipeline** - Babel JSX-to-JS transformation ✓
 - [ ] **Phase 3: Preview Execution** - Sandboxed iframe with React rendering
 - [ ] **Phase 4: Error Handling** - Multi-layer error capture and display
 - [ ] **Phase 5: Polish & Persistence** - localStorage, console output, formatting
@@ -47,7 +47,7 @@ Plans:
 **Plans**: 1 plan
 
 Plans:
-- [ ] 02-01-PLAN.md — Babel integration and debounced transformation
+- [x] 02-01-PLAN.md — Babel integration and debounced transformation ✓
 
 ### Phase 3: Preview Execution
 **Goal**: Transformed code executes in isolated preview with React support
@@ -58,10 +58,10 @@ Plans:
   2. Preview runs in sandboxed iframe (sandbox="allow-scripts" only)
   3. React hooks work in preview (useState, useEffect, useRef, etc.)
   4. User can write React components and see them render live
-**Plans**: TBD
+**Plans**: 1 plan
 
 Plans:
-- [ ] 03-01: TBD during planning
+- [ ] 03-01-PLAN.md — Preview component with sandboxed iframe and React runtime
 
 ### Phase 4: Error Handling
 **Goal**: Syntax and runtime errors display gracefully without crashing
@@ -99,7 +99,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Editor Shell + Layout | 2/2 | Complete ✓ | 2026-01-29 |
-| 2. Transformation Pipeline | 0/1 | Not started | - |
-| 3. Preview Execution | 0/TBD | Not started | - |
+| 2. Transformation Pipeline | 1/1 | Complete ✓ | 2026-01-30 |
+| 3. Preview Execution | 0/1 | Not started | - |
 | 4. Error Handling | 0/TBD | Not started | - |
 | 5. Polish & Persistence | 0/TBD | Not started | - |
