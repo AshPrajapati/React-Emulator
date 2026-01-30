@@ -15,9 +15,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Preview
 
-- [ ] **PREV-01**: Preview updates automatically as user types (debounced 300ms)
-- [ ] **PREV-02**: Preview runs in sandboxed iframe for security
-- [ ] **PREV-03**: React hooks work (useState, useEffect, useRef, etc.)
+- [x] **PREV-01**: Preview updates automatically as user types (debounced 300ms) ✓
+- [x] **PREV-02**: Preview runs in sandboxed iframe for security ✓
+- [x] **PREV-03**: React hooks work (useState, useEffect, useRef, etc.) ✓
 - [ ] **PREV-04**: User sees error message when code has syntax errors
 - [ ] **PREV-05**: User sees error message when code throws runtime errors
 - [ ] **PREV-06**: User can view console.log output in a console panel
@@ -71,9 +71,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | EDIT-01 | Phase 1 | Complete ✓ |
 | EDIT-02 | Phase 1 | Complete ✓ |
 | EDIT-03 | Phase 1 | Complete ✓ |
-| PREV-01 | Phase 3 | Pending |
-| PREV-02 | Phase 3 | Pending |
-| PREV-03 | Phase 3 | Pending |
+| PREV-01 | Phase 3 | Complete ✓ |
+| PREV-02 | Phase 3 | Complete ✓ |
+| PREV-03 | Phase 3 | Complete ✓ |
 | PREV-04 | Phase 4 | Pending |
 | PREV-05 | Phase 4 | Pending |
 | PREV-06 | Phase 4 | Pending |
@@ -87,4 +87,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-29*
-*Last updated: 2026-01-29 after Phase 1 completion*
+*Last updated: 2026-01-30 after Phase 3 completion*
