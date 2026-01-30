@@ -12,7 +12,7 @@ Build a browser-based React code playground with zero-friction editing and insta
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Editor Shell + Layout** - Monaco editor with split-pane UI
+- [x] **Phase 1: Editor Shell + Layout** - Monaco editor with split-pane UI ✓
 - [ ] **Phase 2: Transformation Pipeline** - Babel JSX-to-JS transformation
 - [ ] **Phase 3: Preview Execution** - Sandboxed iframe with React rendering
 - [ ] **Phase 4: Error Handling** - Multi-layer error capture and display
@@ -32,8 +32,8 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 2 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Initialize Vite project and integrate Monaco editor
-- [ ] 01-02-PLAN.md — Implement split-pane layout and verify editor shell
+- [x] 01-01-PLAN.md — Initialize Vite project and integrate Monaco editor ✓
+- [x] 01-02-PLAN.md — Implement split-pane layout and verify editor shell ✓
 
 ### Phase 2: Transformation Pipeline
 **Goal**: JSX code transforms to executable JavaScript
@@ -98,7 +98,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Editor Shell + Layout | 0/2 | Ready to execute | - |
+| 1. Editor Shell + Layout | 2/2 | Complete ✓ | 2026-01-29 |
 | 2. Transformation Pipeline | 0/TBD | Not started | - |
 | 3. Preview Execution | 0/TBD | Not started | - |
 | 4. Error Handling | 0/TBD | Not started | - |

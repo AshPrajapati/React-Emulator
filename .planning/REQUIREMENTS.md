@@ -9,9 +9,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Editor
 
-- [ ] **EDIT-01**: User sees Monaco editor with JSX syntax highlighting
-- [ ] **EDIT-02**: User sees split-pane layout with editor on left, preview on right
-- [ ] **EDIT-03**: User can resize the split pane
+- [x] **EDIT-01**: User sees Monaco editor with JSX syntax highlighting ✓
+- [x] **EDIT-02**: User sees split-pane layout with editor on left, preview on right ✓
+- [x] **EDIT-03**: User can resize the split pane ✓
 
 ### Preview
 
@@ -68,9 +68,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| EDIT-01 | Phase 1 | Pending |
-| EDIT-02 | Phase 1 | Pending |
-| EDIT-03 | Phase 1 | Pending |
+| EDIT-01 | Phase 1 | Complete ✓ |
+| EDIT-02 | Phase 1 | Complete ✓ |
+| EDIT-03 | Phase 1 | Complete ✓ |
 | PREV-01 | Phase 3 | Pending |
 | PREV-02 | Phase 3 | Pending |
 | PREV-03 | Phase 3 | Pending |
@@ -87,4 +87,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2026-01-29*
-*Last updated: 2026-01-29 after roadmap creation*
+*Last updated: 2026-01-29 after Phase 1 completion*
